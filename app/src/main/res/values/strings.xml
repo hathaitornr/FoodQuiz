@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Food Quiz</string>
+    <string name="check_true">True</string>
+    <string name="check_false">False</string>
+
+    <string name="q1">Tom Yum Goong originated from Thailand</string>
+
+    <string name="q1_explanation">The words \"tom yam\" are derived from two Thai words. Tom refers to the boiling process, yam refers to a Thai spicy and sour salad, and goong refers to shrimp!</string>
+
+    <string name="q2">Almonds grow on trees</string>
+
+    <string name="q2_explanation">The almond is a deciduous tree, growing 13–33 feet in height, with a trunk of up to 12 inches in diameter.</string>
+
+    <string name="q3">Cake ingredients can be classified as which of the following?</string>
+    <string name="q3_ans1">Flour</string>
+
+    <string name="q3_ans2">Sugar</string>
+
+    <string name="q3_ans3">Shortening</string>
+
+    <string name="q3_ans4">Oyster Sauce</string>
+
+    <string name="q3_ans5">Eggs</string>
+
+    <string name="q3_explanation">Oyster sauce adds a savory flavour to many dishes, making it an ideal choice for flavouring meat and vegetables.
+        \nBut please don\'t add it into a cake!</string>
+
+    <string name="q4">Bananas have lots of:</string>
+    <string name="q4_check1">Iron</string>
+
+    <string name="q4_check2">Potassium</string>
+
+    <string name="q4_check3">Vitamin D</string>
+
+    <string name="q4_explanation">This mineral does lots of things for you, like help keep your blood pressure stable and help your muscles work the way they should!</string>
+
+    <string name="q5">Most of the health benefit of eating fish comes from:</string>
+    <string name="q5_check1">Omega-3 fatty acids</string>
+
+    <string name="q5_check2">Omega-6 fatty acids</string>
+
+    <string name="q5_check3">Omega-9 fatty acids</string>
+
+    <string name="q5_explanation">Omega-3 fatty acids help our cells work.
+        \nBecause our bodies don\'t make enough of them, we have to get them in food.
+        \nFish that are high in omega-3 fatty acids include salmon, herring, mackerel, and sardines.</string>
+
+    <string name="q6">How many servings of fish per week does the American Heart Association recommend?</string>
+
+    <string name="q6_hint">hint: 0 \- 10</string>
+    <string name="q6_explanation">The American Heart Association recommends at least \"2\" servings of fish per week, especially fatty fish high in omega-3 fatty acids.
+        \nOne serving is about 3.5 ounces.</string>
+
+    <string name="q7">Frozen yogurts have the same active probiotic cultures as regular yogurts</string>
+
+    <string name="q7_explanation">Some frozen yogurts contain the beneficial "live and active" cultures found in a lot of yogurt. These cultures go dormant during freezing but become active again when eaten and returned to a warm temperature in the body.</string>
+
+    <string name="q8">Which is the healthiest way to make stuffing?</string>
+    <string name="q8_check1">Cook inside the turkey</string>
+
+    <string name="q8_check2">Bake in a separate pan</string>
+
+    <string name="q8_explanation">Made the old-fashioned way, dressing absorbs fat drippings while it bakes inside the turkey.
+        \nCook it on its own to avoid the extra grease.</string>
+
+    <string name="q9">Coffee has more antioxidants than fruits and vegetables.</string>
+
+    <string name="q9_explanation">We get more antioxidants (which help protect cells) from coffee than any other source.
+        \nThat\'s partly because we drink so much coffee. But also the drink itself is rich with them!</string>
+
+    <string name="q10">Which has less caffeine?</string>
+    <string name="q10_check1">Ground coffee</string>
+
+    <string name="q10_check2">Instant coffee</string>
+
+    <string name="q10_explanation">Ground roast coffee has about 115 mg per 5-ounce cup if it\'s made in a drip brew pot.
+        \nInstant coffee has only about 65 mg of caffeine per cup.</string>
+
+    <string name="submit">submit</string>
+
+    <string name="your_score">your score is</string>
+
+    <string name="score">0</string>
+
+    <string name="congrats">congrats!</string>
+
+    <string name="q1_ans">q1_ans</string>
+    <string name="q2_ans">q2_ans</string>
+    <string name="q3_ans">q3_ans</string>
+    <string name="q4_ans">q4_ans</string>
+    <string name="q5_ans">q5_ans</string>
+    <string name="q6_ans">q6_ans</string>
+    <string name="q7_ans">q7_ans</string>
+    <string name="q8_ans">q8_ans</string>
+    <string name="q9_ans">q9_ans</string>
+    <string name="q10_ans">q10_ans</string>
+
+    <string name="correct">CORRECT</string>
+    <string name="incorrect">INCORRECT</string>
+</resources>

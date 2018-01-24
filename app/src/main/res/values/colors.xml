@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="redColorPrimary">#ff5252</color>
+    <color name="redColorPrimaryDark">#e64a4a</color>
+    <color name="redColorAccent">#fffc19</color>
+    <color name="redColorBackground">#ff8a80</color>
+    <color name="redColorText">@android:color/white</color>
+
+    <color name="greenColorScore">#ff5252</color>
+    <color name="greenColorBackground">#b9f6ca</color>
+    <color name="greenColorPrimary">#1de9b6</color>
+    <color name="greenColorAccent">#e919ff</color>
+    <color name="greenColorText">#616161</color>
+    <color name="greenColorPrimaryDark">#19cc9f</color>
+    <color name="transparent">#73FFFFFF</color>
+</resources>
