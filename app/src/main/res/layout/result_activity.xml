@@ -17,441 +17,139 @@
             android:src="@drawable/score_icon" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:text="@string/your_score"
-            android:textAllCaps="true"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="@dimen/title_text_size" />
+            style="@style/YourScore"
+            android:text="@string/your_score" />
 
         <TextView
+            style="@style/Score"
             android:id="@+id/score"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginTop="@dimen/spacing_normal"
-            android:text="@string/score"
-            android:fontFamily="sans-serif-light"
-            android:textColor="@color/greenColorScore"
-            android:textSize="@dimen/score_text_size" />
+            android:text="@string/score" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_normal"
-            android:layout_marginBottom="@dimen/spacing_big"
-            android:text="@string/congrats"
-            android:textAllCaps="true"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="@dimen/title_text_size"
-            android:textStyle="bold" />
+            style="@style/Congrats"
+            android:text="@string/congrats" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q1_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q1_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q1_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/check_true"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/check_true" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q1_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q1_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q2_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q2_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q2_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/check_true"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/check_true" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q2_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q2_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q3_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q3_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q3_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q3_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingTop="@dimen/spacing_micro"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q3_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q4_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q4_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q4_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q4_check2"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/q4_check2" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q4_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q4_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q5_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q5_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q5_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q5_check1"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/q5_check1" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q5_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q5_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q6_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q6_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q6_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q6_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingTop="@dimen/spacing_micro"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q6_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q7_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q7_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q7_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/check_true"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/check_true" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q7_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q7_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q8_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q8_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q8_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q8_check2"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/q8_check2" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q8_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q8_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q9_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q9_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q9_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/check_true"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/check_true" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q9_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q9_explanation" />
 
         <TextView
+            style="@style/Result"
             android:id="@+id/q10_ans"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q10_ans"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            android:text="@string/q10_ans" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q10_check2"
-            android:textAllCaps="true"
-            android:textSize="@dimen/text_size"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_micro"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/CorrectAnswer"
+            android:text="@string/q10_check2" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q10_explanation"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/question_spacing"
-            android:paddingLeft="@dimen/spacing_double"
-            android:paddingStart="@dimen/spacing_double"
-            android:paddingRight="@dimen/spacing_double"
-            android:paddingEnd="@dimen/spacing_double"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:background="@color/transparent"
-            android:textColor="@color/greenColorText" />
+            style="@style/Explanation"
+            android:text="@string/q10_explanation" />
 
 
     </LinearLayout>

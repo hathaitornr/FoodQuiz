@@ -12,18 +12,8 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?colorPrimary"
-            android:gravity="center_horizontal"
-            android:paddingBottom="@dimen/spacing_normal"
-            android:paddingTop="@dimen/spacing_normal"
-            android:text="@string/app_name"
-            android:textAllCaps="true"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textSize="@dimen/title_text_size"
-            android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="parent" />
+            style="@style/TextTitle"
+            android:text="@string/app_name" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -31,17 +21,8 @@
             android:src="@drawable/food_icon" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q1"
-            android:textSize="@dimen/text_size"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestionNoTopMargin"
+            android:text="@string/q1" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -49,41 +30,17 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/q1_answer_true"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_big"
-                android:layout_marginLeft="@dimen/spacing_big"
-                android:layout_marginEnd="@dimen/spacing_micro"
-                android:layout_marginRight="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/true_icon"
-                android:drawableLeft="@drawable/true_icon" />
+                style="@style/RadioButtonTrue"
+                android:id="@+id/q1_answer_true" />
 
             <RadioButton
-                android:id="@+id/q1_answer_false"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_micro"
-                android:layout_marginStart="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/false_icon"
-                android:drawableLeft="@drawable/false_icon" />
+                style="@style/RadioButtonFalse"
+                android:id="@+id/q1_answer_false" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q2"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q2" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -91,115 +48,46 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/q2_answer_true"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_big"
-                android:layout_marginLeft="@dimen/spacing_big"
-                android:layout_marginEnd="@dimen/spacing_micro"
-                android:layout_marginRight="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/true_icon"
-                android:drawableLeft="@drawable/true_icon" />
+                style="@style/RadioButtonTrue"
+                android:id="@+id/q2_answer_true" />
 
             <RadioButton
-                android:id="@+id/q2_answer_false"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_micro"
-                android:layout_marginStart="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/false_icon"
-                android:drawableLeft="@drawable/false_icon" />
+                style="@style/RadioButtonFalse"
+                android:id="@+id/q2_answer_false" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q3"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q3" />
 
         <CheckBox
+            style="@style/CheckBox"
             android:id="@+id/q3_ans1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:text="@string/q3_ans1"
-            android:textSize="@dimen/text_size"
-            android:textColor="@color/greenColorText" />
+            android:text="@string/q3_ans1" />
 
         <CheckBox
+            style="@style/CheckBox"
             android:id="@+id/q3_ans2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:text="@string/q3_ans2"
-            android:textSize="@dimen/text_size"
-            android:textColor="@color/greenColorText" />
+            android:text="@string/q3_ans2" />
 
         <CheckBox
+            style="@style/CheckBox"
             android:id="@+id/q3_ans3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:text="@string/q3_ans3"
-            android:textSize="@dimen/text_size"
-            android:textColor="@color/greenColorText" />
+            android:text="@string/q3_ans3" />
 
         <CheckBox
+            style="@style/CheckBox"
             android:id="@+id/q3_ans4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:text="@string/q3_ans4"
-            android:textSize="@dimen/text_size"
-            android:textColor="@color/greenColorText" />
+            android:text="@string/q3_ans4" />
 
         <CheckBox
+            style="@style/CheckBox"
             android:id="@+id/q3_ans5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:text="@string/q3_ans5"
-            android:textSize="@dimen/text_size"
-            android:textColor="@color/greenColorText" />
+            android:text="@string/q3_ans5" />
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q4"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q4" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -207,54 +95,25 @@
             android:orientation="horizontal">
 
             <RadioButton
+                style="@style/RadioButtonLeft"
                 android:id="@+id/q4_check1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
                 android:layout_weight="0.7"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
-                android:text="@string/q4_check1"/>
+                android:text="@string/q4_check1" />
 
             <RadioButton
+                style="@style/RadioButtonNormal"
                 android:id="@+id/q4_check2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q4_check2" />
 
             <RadioButton
+                style="@style/RadioButtonNormal"
                 android:id="@+id/q4_check3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q4_check3" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q5"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q5" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -262,84 +121,34 @@
             android:orientation="vertical">
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q5_check1"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
-                android:text="@string/q5_check1"/>
+                android:text="@string/q5_check1" />
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q5_check2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q5_check2" />
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q5_check3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q5_check3" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q6"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q6" />
 
         <EditText
+            style="@style/EditText"
             android:id="@+id/q6_edit_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/q6_hint"
-            android:textColor="@color/greenColorText"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
             android:inputType="number" />
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q7"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q7" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -347,41 +156,17 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/q7_answer_true"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_big"
-                android:layout_marginLeft="@dimen/spacing_big"
-                android:layout_marginEnd="@dimen/spacing_micro"
-                android:layout_marginRight="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/true_icon"
-                android:drawableLeft="@drawable/true_icon" />
+                style="@style/RadioButtonTrue"
+                android:id="@+id/q7_answer_true" />
 
             <RadioButton
-                android:id="@+id/q7_answer_false"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_micro"
-                android:layout_marginStart="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/false_icon"
-                android:drawableLeft="@drawable/false_icon" />
+                style="@style/RadioButtonFalse"
+                android:id="@+id/q7_answer_false" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q8"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q8" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -389,46 +174,20 @@
             android:orientation="vertical">
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q8_check1"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
-                android:text="@string/q8_check1"/>
+                android:text="@string/q8_check1" />
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q8_check2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q8_check2" />
 
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q9"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q9" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -436,41 +195,17 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/q9_answer_true"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/spacing_big"
-                android:layout_marginLeft="@dimen/spacing_big"
-                android:layout_marginEnd="@dimen/spacing_micro"
-                android:layout_marginRight="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/true_icon"
-                android:drawableLeft="@drawable/true_icon" />
+                style="@style/RadioButtonTrue"
+                android:id="@+id/q9_answer_true" />
 
             <RadioButton
-                android:id="@+id/q9_answer_false"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_micro"
-                android:layout_marginStart="@dimen/spacing_micro"
-                android:layout_weight="1"
-                android:drawableStart="@drawable/false_icon"
-                android:drawableLeft="@drawable/false_icon" />
+                style="@style/RadioButtonFalse"
+                android:id="@+id/q9_answer_false" />
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="@dimen/question_spacing"
-            android:layout_marginBottom="@dimen/spacing_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/q10"
-            android:textSize="@dimen/text_size"
-            android:layout_marginLeft="@dimen/spacing_double"
-            android:layout_marginStart="@dimen/spacing_double"
-            android:layout_marginRight="@dimen/spacing_double"
-            android:layout_marginEnd="@dimen/spacing_double"
-            android:textColor="@color/greenColorText"
-            android:textStyle="bold" />
+            style="@style/TextViewQuestion"
+            android:text="@string/q10" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -478,29 +213,13 @@
             android:orientation="vertical">
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q10_check1"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
-                android:text="@string/q10_check1"/>
+                android:text="@string/q10_check1" />
 
             <RadioButton
+                style="@style/RadioButtonVertical"
                 android:id="@+id/q10_check2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginLeft="@dimen/spacing_double"
-                android:layout_marginStart="@dimen/spacing_double"
-                android:paddingLeft="@dimen/spacing_normal"
-                android:paddingStart="@dimen/spacing_normal"
-                android:layout_weight="1"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/greenColorText"
                 android:text="@string/q10_check2" />
 
         </RadioGroup>
@@ -510,9 +229,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/submit"
             android:textColor="@color/greenColorText"
-            android:textSize="@dimen/text_size"
-            android:text="@string/submit" />
+            android:textSize="@dimen/text_size" />
 
     </LinearLayout>
 </ScrollView>
